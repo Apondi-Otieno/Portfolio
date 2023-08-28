@@ -10,14 +10,36 @@
         font-size: 16px;
     }
 }
-    
-.container{
+   
+#container{
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
 }
 
-.container{
+#container{
     display: flex;
     flex-wrap: wrap;
 }
+
+#bodi {
+
+ 
+  background-color: rgb(196, 154, 159);
+  padding: 4rem;
+  margin-left: 10%;
+  width: 120%;
+  height: 80%;
+}
+
+nav ul li {
+  list-style-type: none;
+ 
+}
+
+p {
+    font-family: 'josefin sans';
+    font-size: 3 rem;
+}
+
+/*fix the linking to the css style sheet*/
