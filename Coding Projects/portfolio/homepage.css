@@ -75,6 +75,8 @@ p {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
+   
 }
 
 /* Style for the navigation links */
@@ -82,6 +84,17 @@ p {
     list-style: none;
     display: flex;
     gap: 20px;
+    
+
+}
+
+.navbar{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5baed;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 .nav-links li a {
@@ -99,7 +112,7 @@ p {
 /* Add responsive styles for smaller screens */
 @media (max-width: 768px) {
     .nav-links {
-        flex-direction: column;
+        
         gap: 10px;
     }
 }
@@ -110,3 +123,13 @@ p {
     flex: 1;
 }
 
+#container-1{
+    background-image: url(img/art.jpeg);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+nav ul li a {
+    /* float: right; */
+    display: inline-block;
+}
