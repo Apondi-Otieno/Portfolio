@@ -89,12 +89,28 @@ p {
 }
 
 .navbar{
-     display: flex;
+    float: right;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f5baed;
     color: #fff;
     padding: 10px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+    margin-right: 100px;
+    position: relative;
+}
+.menu-icon {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+}
+nav ul li a{
+    padding: 15px 20px;
 }
 
 .nav-links li a {
