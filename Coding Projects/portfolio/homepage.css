@@ -88,7 +88,7 @@ p {
 
 }
 
-.navbar{
+/* .navbar{
     float: right;
     display: flex;
     align-items: center;
@@ -96,11 +96,11 @@ p {
     background-color: #f5baed;
     color: #fff;
     padding: 10px 20px;
-}
+} */
 
 nav ul li{
     display: inline-block;
-    margin-left: 70px;
+   
     padding-top: 20px;
     margin-right: 100px;
     position: relative;
