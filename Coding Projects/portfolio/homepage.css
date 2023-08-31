@@ -98,6 +98,10 @@ p {
     padding: 10px 20px;
 } */
 
+
+
+
+/* link edits */
 nav ul li{
     display: inline-block;
    
@@ -105,10 +109,7 @@ nav ul li{
     margin-right: 100px;
     position: relative;
 }
-.menu-icon {
-    display: none; /* Hide by default on larger screens */
-    cursor: pointer;
-}
+
 nav ul li a{
     padding: 15px 20px;
 }
@@ -159,4 +160,16 @@ nav ul li a {
 
 .footer p {
     margin: 0;
+}
+
+
+/* i need to edit the nav bar, 
+add link to the page
+generally finish the css page 
+then add a contact form */
+
+form {
+    color: whitesmoke;
+    font-family: 'EB garamond';
+    font-size: 1.4rem;
 }
