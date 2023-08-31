@@ -33,19 +33,23 @@
     grid-template-columns: auto;
     grid-gap: 20px;
 }
-s
+
 #container{
     display: flex;
     flex-wrap: wrap;
 }
 
-#bodi {
+#some-element {
 
  
   background-color: rgb(196, 154, 159);
-  padding: 4rem;
+  padding: 0;
+  margin: 0;
   width: 120%;
   height: 80%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 
 }
 
