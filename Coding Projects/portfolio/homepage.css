@@ -85,13 +85,15 @@ p {
 }
 
 .nav-links li a {
-    color: #fff;
+    color: #1e7a1e;
     text-decoration: none;
+    font-weight: 600;
 }
 
 /* Hover effect for navigation links */
 .nav-links li a:hover {
-    border-bottom: 2px solid #fff;
+    color: rgb(170, 105, 58);
+    border-bottom: 2px solid #1b741b;
 }
 
 /* Add responsive styles for smaller screens */
