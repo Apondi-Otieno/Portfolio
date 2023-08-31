@@ -34,6 +34,9 @@
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
 }
 
 #container{
@@ -68,4 +71,33 @@ p {
     font-size: 3 rem;
 }
 
-/*fix the linking to the css style sheet*/
+/* Style for the logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
