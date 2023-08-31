@@ -1,21 +1,33 @@
-fix media queries for this page
+/* Default styles for all screen sizes */
+#some-element {
+    width: 100%;
+    font-size: 16px;
+}
 
-
-/* @media(max-width: 600px){
-    
-    body{
+/* Media query for screens with a maximum width of 768px (typically smartphones) */
+@media (max-width: 768px) {
+    #some-element {
+        width: 80%;
         font-size: 14px;
     }
-} 
+}
 
-*/
-
-/* @media  (min-width: 601px){
-    body{
+/* Media query for screens with a minimum width of 769px and a maximum of 1024px (typically tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #some-element {
+        width: 60%;
         font-size: 16px;
     }
 }
-    */
+
+/* Media query for screens with a minimum width of 1025px (typically desktops) */
+@media (min-width: 1025px) {
+    .some-element {
+        width: 50%;
+        font-size: 18px;
+    }
+}
+
 #container{
     display: grid;
     grid-template-columns: auto;
