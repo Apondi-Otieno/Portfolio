@@ -138,7 +138,7 @@ nav ul li a{
 }
 
 #container-1{
-    background-image: url(img/art.jpeg);
+    /* background-image: url(img/art.jpeg); */
     background-size: cover;
     padding-bottom: 10%;
 }
@@ -162,7 +162,6 @@ form {
 .footer p {
     margin: 0;
 }
-
 
 /* i need to edit the nav bar, 
 add link to the page
