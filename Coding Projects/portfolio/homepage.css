@@ -60,6 +60,7 @@ p {
 .navbar{
     /* float: right; */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: #3ab9bd;
@@ -67,10 +68,6 @@ p {
     padding: 10px 20px;
 } 
 
-
-.navigation{
-    background-color: #ccc;
-}
 
 /* link edits */
 nav ul li{
