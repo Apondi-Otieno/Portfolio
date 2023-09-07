@@ -63,7 +63,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #3ab9bd;
+    background-color: #c5e8e9;
     color: #fff;
     padding: 10px 20px;
 } 
@@ -121,7 +121,7 @@ main{
 }
 .container{
     padding: 2rem;
-    background-color: #ccc;
+      background-color: #c5e8e9;
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
@@ -134,8 +134,8 @@ main{
 
 #some-element {
 
-  border: 1px solid #ccc;
-  background-color: rgb(196, 154, 159);
+  
+  background-color: rgb(255, 254, 254);
   padding: 2rem;
   overflow: auto;
   width: 120%;
@@ -144,9 +144,10 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.);
+  
 
 }
+
 
 .intro {
     flex: 1;
@@ -156,33 +157,40 @@ main{
     /* background-image: url(img/art.jpeg); */
     background-size: cover;
     padding-bottom: 10%;
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
 }
 
 /* contact form */
 .form {
-    color: whitesmoke;
+    color: rgb(51, 44, 44);
     font-family: 'EB garamond';
-    font-size: 1.4rem;
-    background-color: burlywood ;
+    font-size: 1.6rem;
+    justify-content: center;
+    background-color: rgb(202, 173, 136);
+
+   
 }
 
 input{
     padding: 1rem;
+    align-items: center;
+    
 }
 
 #button{
-    color: #dbe6db;
+    color: #1e7a1e;
     font-size: medium;
     font-weight: 700;
-    background-color: #1b741b;
+    background-color: #c5e8e9;
 }
 /* footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    /* background-color: #333; */
+    color: #1e7a1e;
     text-align: center;
     padding: 20px;
+    font-weight: 800;
+    font-size: medium;
 }
 
 .footer p {
