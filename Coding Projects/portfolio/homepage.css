@@ -116,12 +116,14 @@ main{
 .form{
     padding: 2rem;
 }
+
 .intro{
     padding-top: 5rem;
 }
+
 .container{
     padding: 2rem;
-      background-color: #c5e8e9;
+    background-color: #c5e8e9;
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
@@ -144,7 +146,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  height: 100vh; 
 
 }
 h1{
@@ -152,7 +154,7 @@ h1{
     color: rgb(170, 105, 58);
 }
 a{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .intro {
     flex: 1;
@@ -160,7 +162,7 @@ a{
 
 #container-1{
     /* background-image: url(img/art.jpeg); */
-    background-size: cover;
+    /* background-size: cover; */
     padding-bottom: 10%;
     /* background-color: goldenrod; */
 }
@@ -171,9 +173,9 @@ a{
     font-family: 'EB garamond';
     font-size: 1.6rem;
     justify-content: center;
-    background-color: rgb(202, 173, 136);
-
-   
+    /* background-color: rgb(202, 173, 136); */
+    padding-left: 4rem;
+    
 }
 
 input{
