@@ -147,8 +147,13 @@ main{
   
 
 }
-
-
+h1{
+    font-size: 1.6rem;
+    color: rgb(170, 105, 58);
+}
+a{
+    font-size: 1.4rem;
+}
 .intro {
     flex: 1;
 }
