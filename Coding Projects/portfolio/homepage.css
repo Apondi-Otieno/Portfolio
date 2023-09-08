@@ -123,7 +123,7 @@ main{
 
 .container{
     padding: 2rem;
-    background-color: #c5e8e9;
+    /* background-color: #c5e8e9; */
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
@@ -146,7 +146,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+
 
 }
 h1{
@@ -171,17 +171,22 @@ a{
 .form {
     color: rgb(51, 44, 44);
     font-family: 'EB garamond';
-    font-size: 1.6rem;
+    font-size: 1rem;
     justify-content: center;
     /* background-color: rgb(202, 173, 136); */
     padding-left: 4rem;
-    
+    background-size: cover;
+    /* background-color: rgb(253, 248, 240); */
+    height:auto;
+    /* add background, but mostly fix the input structures */
 }
 
 input{
-    padding: 1rem;
-    align-items: center;
     
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #button{
@@ -189,6 +194,8 @@ input{
     font-size: medium;
     font-weight: 700;
     background-color: #c5e8e9;
+    padding: 1rem;
+    border: none;
 }
 /* footer */
 .footer {
