@@ -63,7 +63,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #c5e8e9;
+    background-color:;
     color: #fff;
     padding: 10px 20px;
 } 
@@ -137,7 +137,7 @@ main{
 #some-element {
 
   
-  background-color: rgb(255, 254, 254);
+  background-color: rgba(255, 255, 255, 0.644);
   padding: 2rem;
   overflow: auto;
   width: 120%;
@@ -173,20 +173,25 @@ a{
     font-family: 'EB garamond';
     font-size: 1rem;
     justify-content: center;
-    /* background-color: rgb(202, 173, 136); */
+    background-color: rgb(202, 173, 136); 
     padding-left: 4rem;
     background-size: cover;
-    /* background-color: rgb(253, 248, 240); */
+    
     height:auto;
     /* add background, but mostly fix the input structures */
 }
 
-input{
+.text{
     
     align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem;
+    padding: 10px 20px;
+    
+
 }
 
 #button{
@@ -200,11 +205,12 @@ input{
 /* footer */
 .footer {
     /* background-color: #333; */
-    color: #1e7a1e;
+    color: #bcbdbc;
     text-align: center;
-    padding: 20px;
+    padding: 3rem;
     font-weight: 800;
     font-size: medium;
+    background-color:#012706;
 }
 
 .footer p {
